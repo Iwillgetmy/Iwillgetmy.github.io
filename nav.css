@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Smooch+Sans:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald'
+}
+@media(max-width:500px){
+    .toggle{
+        position: fixed;
+        top:30px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
+        background: #000 url(menu.png);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor:pointer;
+    }
+}
+@media (min-width: 1000px){
+    .navigation{
+        position: absolute;
+        float: right;
+        height: 100%;
+        right: 100px;
+    }
+    
+    .navigation a{
+        height: 100%;
+        display: table;
+        float: left;
+        padding: 0px 20px;
+        background-color: white;
+        color: #666;
+        text-decoration: none;
+        border-bottom: solid transparent;
+        -webkit-transition: border 400ms ease;
+        -moz-transition:  border 400ms ease;
+        -ms-transition: border 400ms ease;
+        -o-transition: border 400ms ease;
+        transition: border 400ms ease;
+    }
+    
+    .navigation a:hover{
+        transition: ease-in 0.5s;
+        border-bottom: 1px solid black;
+        color: black;
+    }
+    
+    .navigation a li{
+        display: table-cell;
+        vertical-align: middle;
+        font-weight: 500;
+        font-size: 24px;
+    }
+}
