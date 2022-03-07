@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Oswald'
 }
-@media(max-width:500px){
+@media(max-width:1000px){
     .toggle{
         position: fixed;
         top:30px;
@@ -17,6 +17,47 @@
         background-position: center;
         background-repeat: no-repeat;
         cursor:pointer;
+    }
+    .toggle.active{
+        background: #000 url(close.png);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor:pointer;
+    }
+    .sidebar{
+        position: fixed;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items:center; 
+        transition: 0.5s;
+        padding: 40px;
+        z-index: 100; 
+        right: -100%;
+    }
+    .sidebar.active{
+        right: 0;
+    }
+    .sidebar ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sidebar li{
+        color: #fff;
+        list-style: none;
+    }
+    .sidebar li:hover{
+        transition: 1s;
+        color: aqua;
+    }
+    .sidebar a li{
+        text-decoration: none;
+        font-size: 2em;
+        margin: 1px 0;
+        font-weight: 300;
     }
 }
 @media (min-width: 1000px){
