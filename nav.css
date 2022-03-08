@@ -27,18 +27,15 @@
     }
     .sidebar{
         position: fixed;
-        background: #000;
+        background: white;
         display: flex;
-        justify-content: center;
-        align-items:center; 
         transition: 0.5s;
         padding: 40px;
         z-index: 100; 
-        right: -100%;
-
+        right: 100%;
     }
     .sidebar.active{
-        right: 0;
+        right: 15%;
     }
     .sidebar ul{
         display: flex;
@@ -59,7 +56,6 @@
         color: aqua;
     }
     .sidebar a li{
-        text-decoration: none;
         font-size: 2em;
         margin: 1px 0;
         font-weight: 300;
