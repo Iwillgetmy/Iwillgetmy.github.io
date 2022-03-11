@@ -63,7 +63,10 @@ section{
     padding: 100px;
     font-size: 20px;
 }
-
+.contentBx{
+    position: fixed;
+    top: 200px;
+}
 .banner .contentBx h4{
     font-size: 1.5em;
     color: #333;
