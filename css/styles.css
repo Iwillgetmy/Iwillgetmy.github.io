@@ -51,7 +51,7 @@ section{
 }
 
 
-.banner .contentBx, .sidebar{
+.banner .contentBx{
     position: absolute;
     top: 0;
     right: 0;
@@ -87,7 +87,28 @@ p{
 }
 .typewrite{
     font-size: 1.5em;
-    color: #333;
+    color: black;
     font-weight: 300;
     text-decoration: none;
+}
+.sci{
+    right: 0;
+    width: calc(100%);
+
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}.sci li{
+    margin-right: 10px;
+    list-style: none;
+}
+.sci li img{
+    transform: scale(0.5);
+    opacity:0.7;
+}
+.sci li img:hover{
+    opacity: 1;
+    transform: scale(0.6);
 }
