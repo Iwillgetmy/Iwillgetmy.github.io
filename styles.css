@@ -67,11 +67,6 @@ section{
     position: fixed;
     top: 200px;
 }
-.banner .contentBx h4{
-    font-size: 1.5em;
-    color: #333;
-    font-weight: 300;
-}
 
 .banner .contentBx h4 span{
     color: #00bcd4;
@@ -89,4 +84,10 @@ p{
     font-size: 1.12m;
     margin: 20px 0;
     font-weight: 300;
+}
+.typewrite{
+    font-size: 1.5em;
+    color: #333;
+    font-weight: 300;
+    text-decoration: none;
 }
