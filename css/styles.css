@@ -6,40 +6,6 @@
     font-family: 'Oswald'
 }
 
-
-.header{
-    top: 0;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    height: 80px;
-    display: block;
-    background-color:white;
-}
-
-.inner_header{
-    width: 1000px;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
-    background-color:white;
-}
-.logo_container{
-    position: absolute;
-    float:left;
-    top: 30px;
-    left: 100px;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    background: #333;
-    color: #fff;
-    padding: 0 40px;
-    border-radius: 20px;
-    -moz-border-radius: 70px; 
-    -webkit-border-radius: 70px; 
-}
-
 section{
     padding: 100px;
     min-height: 100vh;
@@ -149,7 +115,7 @@ p{
 }
 
 .about{
-    background: #000;
+    background: grey;
 }
 .container-fluid{
     margin-bottom: 0;
