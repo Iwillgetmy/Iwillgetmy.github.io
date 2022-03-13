@@ -112,3 +112,45 @@ p{
     opacity: 1;
     transform: scale(0.6);
 }
+
+.title{
+    width: 100%;
+    text-align: center; 
+}
+
+.title h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    position: relative;
+    color: aqua;
+}
+
+.title p{
+    max-width: 700px;
+    display: inline-block;
+}
+.title h2::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+    width: 60px;
+    height: 2px;
+    background: #000;
+}
+
+.title.white h2,.title.white p{
+    color: #fff;
+}
+
+.title.white h2::before{
+    background: white;
+}
+
+.about{
+    background: #000;
+}
+.container-fluid{
+    margin-bottom: 0;
+}
