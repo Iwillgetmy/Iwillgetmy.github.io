@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oswald'
+    font-family: 'Oswald';
+    scroll-behavior: smooth !important;
+
 }
 
 section{
@@ -86,7 +88,8 @@ p{
 
 .title h2{
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: 600;
+    letter-spacing: 1px;
     position: relative;
     color: aqua;
 }
@@ -101,7 +104,7 @@ p{
     left: 50%;
     transform: translateX(-50%);
     bottom: -5px;
-    width: 60px;
+    width: 30px;
     height: 2px;
     background: #000;
 }
@@ -115,8 +118,23 @@ p{
 }
 
 .about{
-    background: grey;
+    background: lightgrey;
+    scroll-behavior: smooth;
 }
 .container-fluid{
     margin-bottom: 0;
+}
+
+a[ id= "about" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[ id= "galeria" ]:target ~ #main article.panel {
+-webkit-transform: translateY( -500px );
+transform: translateY( -500px );
+}
+a[ id= "contacto" ]:target ~ #main article.panel {
+-webkit-transform: translateY( -1000px );
+transform: translateY( -1000px );
 }
