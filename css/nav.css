@@ -2,4 +2,7 @@
     .navbar.active{
         background-color: white;
     }
+    .collapse.active{
+        height: 100%;
+    }
 }
