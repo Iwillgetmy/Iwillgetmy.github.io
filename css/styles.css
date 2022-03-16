@@ -76,6 +76,9 @@ p{
     transform: scale(0.5);
     opacity:0.7;
 }
+.bruh{
+    opacity:0.6;
+}
 .sci li img:hover{
     opacity: 1;
     transform: scale(0.6);
@@ -91,7 +94,7 @@ p{
     font-weight: 600;
     letter-spacing: 1px;
     position: relative;
-    color: aqua;
+    color: black;
 }
 
 .title p{
@@ -134,5 +137,7 @@ p{
     background-color: lightgrey;
 }
 .contact h2{
-    color: white;
+    color: black;
+    font-weight:600;
+    margin-bottom: 20px;
 }

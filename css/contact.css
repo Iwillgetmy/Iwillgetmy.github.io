@@ -1,13 +1,10 @@
-.contact{
-    background: lightgrey;
+.img{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;   
 }
 
-/* .contact .contactForm{
-    position: relative;
-    width: 700px;
-    margin-top: 20px;
-} */
+.img a{
+
+}
+        
+    
