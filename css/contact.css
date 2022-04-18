@@ -1,10 +1,50 @@
-.img{
+.contact {
+    background-color: lightgrey;
     display: flex;
-    justify-content: center;   
+    align-items: center;
+    justify-content: center;
 }
 
-.img a{
-
+.contact h3 {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
-        
-    
+
+form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form input,
+form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+form button {
+    padding: 15px;
+    background: orange;
+    color: white;
+    font-size: 18pz;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+form button:hover {
+    transition: 0.5s;
+    background: aquamarine;
+}

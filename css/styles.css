@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Smooch+Sans:wght@200;300&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,18 +9,18 @@
 
 }
 
-section{
+section {
     padding: 100px;
     min-height: 100vh;
 }
 
-.banner{
+.banner {
     position: relative;
     width: 100%;
 }
 
 
-.banner .contentBx{
+.banner .contentBx {
     position: absolute;
     top: 0;
     right: 0;
@@ -31,65 +32,73 @@ section{
     padding: 100px;
     font-size: 20px;
 }
-.contentBx{
+
+.contentBx {
     position: fixed;
     top: 200px;
 }
 
-.banner .contentBx h4 span{
+.banner .contentBx h4 span {
     color: #00bcd4;
     font-size: 1.5em;
     font-weight: 700;
 }
 
-.banner .contentBx h2{
+.banner .contentBx h2 {
     font-size: 3em;
     color: black;
     line-height: 1em;
 }
 
-p{
+p {
     font-size: 1.12m;
     margin: 20px 0;
     font-weight: 300;
 }
-.typewrite{
+
+.typewrite {
     font-size: 1.5em;
     color: black;
     font-weight: 300;
     text-decoration: none;
 }
-.sci{
+
+.sci {
     right: 0;
     width: calc(100%);
 
     position: absolute;
     bottom: 20px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-}.sci li{
+}
+
+.sci li {
     margin-right: 10px;
     list-style: none;
 }
-.sci li img{
+
+.sci li img {
     transform: scale(0.5);
-    opacity:0.7;
+    opacity: 0.7;
 }
-.bruh{
-    opacity:0.6;
+
+.bruh {
+    opacity: 0.6;
 }
-.sci li img:hover{
+
+.sci li img:hover {
     opacity: 1;
     transform: scale(0.6);
 }
 
-.title{
+.title {
     width: 100%;
-    text-align: center; 
+    text-align: center;
 }
 
-.title h2{
+.title h2 {
     font-size: 1.5em;
     font-weight: 600;
     letter-spacing: 1px;
@@ -97,11 +106,12 @@ p{
     color: black;
 }
 
-.title p{
+.title p {
     max-width: 700px;
     display: inline-block;
 }
-.title h2::before{
+
+.title h2::before {
     content: '';
     position: absolute;
     left: 50%;
@@ -112,32 +122,25 @@ p{
     background: #000;
 }
 
-.title.white h2,.title.white p{
+.title.white h2,
+.title.white p {
     color: #fff;
 }
 
-.title.white h2::before{
+.title.white h2::before {
     background: white;
 }
 
-.about{
+.about {
     background: lightgrey;
     scroll-behavior: smooth;
 }
-.container-fluid{
+
+.container-fluid {
     margin-bottom: 0;
 }
 
-.portfolio{
+.portfolio {
     background: white;
     scroll-behavior: smooth;
-}
-
-.contact{
-    background-color: lightgrey;
-}
-.contact h2{
-    color: black;
-    font-weight:600;
-    margin-bottom: 20px;
 }
